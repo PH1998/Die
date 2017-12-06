@@ -15,6 +15,15 @@
 		057C98811FD7287500547DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057C987F1FD7287500547DF7 /* Main.storyboard */; };
 		057C98831FD7287500547DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057C98821FD7287500547DF7 /* Assets.xcassets */; };
 		057C98861FD7287500547DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057C98841FD7287500547DF7 /* LaunchScreen.storyboard */; };
+		057C988E1FD7299F00547DF7 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C988D1FD7299F00547DF7 /* MenuScene.swift */; };
+		057C98951FD72A8B00547DF7 /* fear_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 057C988F1FD72A8B00547DF7 /* fear_bg.mp3 */; };
+		057C98961FD72A8B00547DF7 /* fear_lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 057C98901FD72A8B00547DF7 /* fear_lose.mp3 */; };
+		057C98971FD72A8B00547DF7 /* fear_moan.wav in Resources */ = {isa = PBXBuildFile; fileRef = 057C98911FD72A8B00547DF7 /* fear_moan.wav */; };
+		057C98981FD72A8B00547DF7 /* fear_wall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 057C98921FD72A8B00547DF7 /* fear_wall.mp3 */; };
+		057C98991FD72A8B00547DF7 /* fear_win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 057C98931FD72A8B00547DF7 /* fear_win.mp3 */; };
+		057C989E1FD72E2E00547DF7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 057C989A1FD72E2E00547DF7 /* GameScene.sks */; };
+		057C989F1FD72E2E00547DF7 /* Wall.sks in Resources */ = {isa = PBXBuildFile; fileRef = 057C989B1FD72E2E00547DF7 /* Wall.sks */; };
+		057C98A01FD72E2E00547DF7 /* Room.sks in Resources */ = {isa = PBXBuildFile; fileRef = 057C989C1FD72E2E00547DF7 /* Room.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		057C98821FD7287500547DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		057C98851FD7287500547DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		057C98871FD7287500547DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057C988D1FD7299F00547DF7 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		057C988F1FD72A8B00547DF7 /* fear_bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_bg.mp3; sourceTree = "<group>"; };
+		057C98901FD72A8B00547DF7 /* fear_lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_lose.mp3; sourceTree = "<group>"; };
+		057C98911FD72A8B00547DF7 /* fear_moan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fear_moan.wav; sourceTree = "<group>"; };
+		057C98921FD72A8B00547DF7 /* fear_wall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_wall.mp3; sourceTree = "<group>"; };
+		057C98931FD72A8B00547DF7 /* fear_win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_win.mp3; sourceTree = "<group>"; };
+		057C989A1FD72E2E00547DF7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		057C989B1FD72E2E00547DF7 /* Wall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Wall.sks; sourceTree = "<group>"; };
+		057C989C1FD72E2E00547DF7 /* Room.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Room.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +78,44 @@
 		057C98741FD7287500547DF7 /* Die */ = {
 			isa = PBXGroup;
 			children = (
+				057C98941FD72A8B00547DF7 /* Sounds */,
+				057C987F1FD7287500547DF7 /* Main.storyboard */,
 				057C98751FD7287500547DF7 /* AppDelegate.swift */,
 				057C98771FD7287500547DF7 /* GameScene.sks */,
 				057C98791FD7287500547DF7 /* Actions.sks */,
 				057C987B1FD7287500547DF7 /* GameScene.swift */,
 				057C987D1FD7287500547DF7 /* GameViewController.swift */,
-				057C987F1FD7287500547DF7 /* Main.storyboard */,
+				057C988D1FD7299F00547DF7 /* MenuScene.swift */,
 				057C98821FD7287500547DF7 /* Assets.xcassets */,
 				057C98841FD7287500547DF7 /* LaunchScreen.storyboard */,
 				057C98871FD7287500547DF7 /* Info.plist */,
+				057C989D1FD72E2E00547DF7 /* Scenes */,
 			);
 			path = Die;
+			sourceTree = "<group>";
+		};
+		057C98941FD72A8B00547DF7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				057C988F1FD72A8B00547DF7 /* fear_bg.mp3 */,
+				057C98901FD72A8B00547DF7 /* fear_lose.mp3 */,
+				057C98911FD72A8B00547DF7 /* fear_moan.wav */,
+				057C98921FD72A8B00547DF7 /* fear_wall.mp3 */,
+				057C98931FD72A8B00547DF7 /* fear_win.mp3 */,
+			);
+			name = Sounds;
+			path = "../../Fear The Dead – Final/Fear The Dead";
+			sourceTree = "<group>";
+		};
+		057C989D1FD72E2E00547DF7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				057C989A1FD72E2E00547DF7 /* GameScene.sks */,
+				057C989B1FD72E2E00547DF7 /* Wall.sks */,
+				057C989C1FD72E2E00547DF7 /* Room.sks */,
+			);
+			name = Scenes;
+			path = "../../Fear The Dead – Final/Fear The Dead";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +178,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				057C98811FD7287500547DF7 /* Main.storyboard in Resources */,
+				057C98971FD72A8B00547DF7 /* fear_moan.wav in Resources */,
+				057C98A01FD72E2E00547DF7 /* Room.sks in Resources */,
+				057C98981FD72A8B00547DF7 /* fear_wall.mp3 in Resources */,
+				057C989F1FD72E2E00547DF7 /* Wall.sks in Resources */,
+				057C989E1FD72E2E00547DF7 /* GameScene.sks in Resources */,
 				057C98781FD7287500547DF7 /* GameScene.sks in Resources */,
 				057C98831FD7287500547DF7 /* Assets.xcassets in Resources */,
+				057C98991FD72A8B00547DF7 /* fear_win.mp3 in Resources */,
+				057C98961FD72A8B00547DF7 /* fear_lose.mp3 in Resources */,
+				057C98951FD72A8B00547DF7 /* fear_bg.mp3 in Resources */,
 				057C98861FD7287500547DF7 /* LaunchScreen.storyboard in Resources */,
 				057C987A1FD7287500547DF7 /* Actions.sks in Resources */,
 			);
@@ -148,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				057C987C1FD7287500547DF7 /* GameScene.swift in Sources */,
+				057C988E1FD7299F00547DF7 /* MenuScene.swift in Sources */,
 				057C987E1FD7287500547DF7 /* GameViewController.swift in Sources */,
 				057C98761FD7287500547DF7 /* AppDelegate.swift in Sources */,
 			);
